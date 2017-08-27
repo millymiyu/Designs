@@ -1,23 +1,48 @@
-<html>
+<HTML><HEAD><TITLE>Shopping List</TITLE></HEAD> 
 <style>
 body {
-    background-color:Lightblue;
+    background: url(backgroung.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
-
+p {
+    margin-left: 2cm;
+}
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: lightgreen; /* green */
     border: none;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: block;
-    font-size: 45px;
+    display: inline-block;
+    font-size: 16px;
 }
-
 </style>
 <body>
-<button> <strong>sign in </strong></button><br>
-<button> <strong>sign up </strong></button><br>
+<center><button class="button">Home</button>   <button class="button">About</button>  <button class="button">Signin</button>  <button class="button">Signup</button>  <button class="button">Contact</button> </center>
+<form id="Nameform">
+  <p>How cool is it to keep track of your shopping items!</p>
+  <p>You can also get an idea of what to shop from someones shopping list</p>
+  <p>Sign in below and let the fun beigin</p>
+  <p>User name: <input type="text" name="username" size="25"></p>
+  <p>Password: <input type="text" name="password" size="25"></p>
+ <p><button type="submit" form="Nameform" value="Submit" class="button">Signin</button></p>
+ <p><a href="url">Forgot password ?</a> </p>
+ 
+</form>
+
+<form id="nameform">
+  
+ <p><center>Dont have an account?</center></p>
+  <p><center>We got you,sign up below and join the movement</center></p>
+  <p><center>Email: <input type="text" name="email" size="25"></center></p>
+  <p><center>user name: <input type="text" name="username" size="25"></center></p>
+  <p><center>Password: <input type="text" name="password" size="25"></center></p>
+  <p><center>Re-enter Password: <input type="text" name="password1" size="25"></center></p>
+  <p><center>ID number: <input type="text" name="ID"></center></center></p>
+  <p><center><button type="submit" form="nameform" value="Submit" class="button">Signup</button></center></p>
+  
+ </form>
 </body>
 </html>

@@ -1,5 +1,2 @@
-language: python
-rvm:
- -3.6
- -html
- -css
+language: html
+dist: precise

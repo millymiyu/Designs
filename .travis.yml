@@ -1,1 +1,3 @@
+language:html
 
+after_success: coveralls
